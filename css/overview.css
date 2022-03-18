@@ -1,0 +1,160 @@
+.overview {
+  background-image: url("../images/logo-background.svg");
+  background-position: center center;
+  background-size: cover;
+  padding: 40px 10px;
+  background-color: #EDF0F5;
+}
+
+.overview .container .overview-left {
+  color: #fff;
+}
+
+.overview .container .overview-left .price-paid span.start-up {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  font-variant: small-caps;
+  color: #eb175c;
+}
+
+.overview .container .overview-left .price-paid span.paid-year {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  display: inline-block;
+  margin-bottom: 40px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.overview .container .overview-left .price-paid .price {
+  position: relative;
+}
+
+.overview .container .overview-left .price-paid .price sup {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  position: absolute;
+  top: 12px;
+  left: -15px;
+}
+
+.overview .container .overview-left .price-paid .price .month-price {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+.overview .container .overview-left .price-paid .price .month-word {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+}
+
+.overview .container .overview-left ul {
+  list-style: none;
+  position: relative;
+  padding: 0;
+  left: -15px;
+}
+
+.overview .container .overview-left ul li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.overview .container .overview-left ul li::before {
+  content: "\2022";
+  color: #004cff;
+  font-weight: bold;
+  margin: 0px 12px;
+  font-size: 30px;
+  position: relative;
+  top: -2px;
+}
+
+.overview .container .form {
+  padding: 16px;
+  max-width: 450px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 2px rgba(145, 158, 171, 0.24), 0px 16px 32px -4px rgba(145, 158, 171, 0.24);
+          box-shadow: 0px 0px 2px rgba(145, 158, 171, 0.24), 0px 16px 32px -4px rgba(145, 158, 171, 0.24);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.overview .container .form h1 {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.overview .container .form p {
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 16px;
+  color: #181b20;
+}
+
+.overview .container .form form {
+  color: #fa0a0a;
+}
+
+.overview .container .form form .input-div {
+  position: relative;
+}
+
+.overview .container .form form .input-div input {
+  padding: 13px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  max-width: 410px;
+}
+
+.overview .container .form form .input-div .form-control + label {
+  color: #858484;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background: #fff;
+}
+
+.overview .container .form form .input-div .form-control:focus + label {
+  top: -15px;
+  left: 10px;
+  padding: 5px;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.overview .container .form form button[type="submit"] {
+  width: 100%;
+  background: #004CFF;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .overview {
+    padding: 30px 10px;
+  }
+  .overview .container .overview-left .price-paid {
+    padding: 0 20px;
+  }
+}
+/*# sourceMappingURL=overview.css.map */
