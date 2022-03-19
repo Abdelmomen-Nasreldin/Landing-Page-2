@@ -14,6 +14,26 @@
                     padding: 24px;
                     margin: 16px 0px;
                     border-radius: 16px;
+                    .image {
+                    }
+                    h6 {
+                        margin-top: 24px;
+                        margin-bottom: 16px;
+                        line-height: 20px;
+letter-spacing: 0.02em;
+
+/* Dark Gray */
+
+color: #181B20;
+                    }
+                    p {
+                        color: #181b20;
+                        line-height: 140%;
+                        /* or 22px */
+
+                        letter-spacing: 0.03em;
+                        opacity: 0.8;
+                    }
                 }
             }
             .benefit-icon-right {
@@ -42,8 +62,8 @@
     }
     .benefits .container .benefits-main .benefit-icon-left {
         left: -78px;
-    bottom: -64px;
-    max-width: 200px;
+        bottom: -64px;
+        max-width: 200px;
     }
 }
 @media (max-width: 991.98px) {
@@ -54,8 +74,8 @@
     }
     .benefits .container .benefits-main .benefit-icon-left {
         left: -70px;
-    bottom: -65px;
-    max-width: 170px;
+        bottom: -65px;
+        max-width: 170px;
     }
 }
 @media (max-width: 767.98px) {

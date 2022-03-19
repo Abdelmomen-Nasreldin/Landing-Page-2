@@ -1,0 +1,33 @@
+.quotes {
+  background-image: url("../images/quotes-background.svg");
+}
+
+.quotes .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  padding: 140px 20px 120px;
+}
+
+.quotes .container .quote-card {
+  max-width: 500px;
+}
+
+.quotes .container .quote-card p {
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.quotes .container .quote-card span {
+  opacity: 0.8;
+  letter-spacing: 0.03em;
+}
+/*# sourceMappingURL=quotes.css.map */

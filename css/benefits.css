@@ -19,6 +19,23 @@
   border-radius: 16px;
 }
 
+.benefits .container .benefits-main .benefit-column .benefit-item h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  /* Dark Gray */
+  color: #181B20;
+}
+
+.benefits .container .benefits-main .benefit-column .benefit-item p {
+  color: #181b20;
+  line-height: 140%;
+  /* or 22px */
+  letter-spacing: 0.03em;
+  opacity: 0.8;
+}
+
 .benefits .container .benefits-main .benefit-icon-right {
   position: absolute;
   z-index: 2;

@@ -1,0 +1,56 @@
+footer.footer {
+  background: #fff;
+  background-image: url("../images/footer-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+footer.footer .container .main-footer .footer-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer.footer .container .main-footer .footer-one .logo img {
+  max-width: 100%;
+}
+
+footer.footer .container .main-footer .footer-one .scroll-top a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer.footer .container .main-footer .footer-two ul {
+  padding: 10px 0;
+  margin: 16px 0;
+}
+
+footer.footer .container .main-footer .footer-two ul li {
+  margin: 0 10px;
+}
+
+footer.footer .container .main-footer .footer-three ul li {
+  margin: 0 10px;
+}
+
+@media (max-width: 575.98px) {
+  footer.footer .container .main-footer .footer-one .logo {
+    width: 130px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  footer.footer {
+    background-color: #edf0f5;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

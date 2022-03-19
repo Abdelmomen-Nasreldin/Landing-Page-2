@@ -1,15 +1,9 @@
 .overview {
-    
     background-image: url("../images/logo-background.svg");
-    // background-blend-mode: lighten;
-    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
     padding:40px 10px;
     background-color: #EDF0F5;
-    // opacity: 0.8;
-    // height: 700px;
-    // width: 100%;
-    // transform: rotate(-180deg);
     .container {
         .overview-left {
             color: #fff;
@@ -145,21 +139,21 @@
         padding:0 20px;
         
     }
-    .overview .container .overview-left .price-paid span.start-up {
-    }
-    .overview .container .overview-left .price-paid span.paid-year {
-    }
+    // .overview .container .overview-left .price-paid span.start-up {
+    // }
+    // .overview .container .overview-left .price-paid span.paid-year {
+    // }
 
-    .overview .container .overview-left .price-paid .price {
-    }
-    .overview .container .overview-left .price-paid .price sup {
-    }
-    .overview .container .overview-left .price-paid .price .month-price {
-    }
-    .overview .container .overview-left .price-paid .price .month-word {
-    }
-    .overview .container .overview-left ul {
-    }
-    .overview .container .overview-left ul li {
-    }
+    // .overview .container .overview-left .price-paid .price {
+    // }
+    // .overview .container .overview-left .price-paid .price sup {
+    // }
+    // .overview .container .overview-left .price-paid .price .month-price {
+    // }
+    // .overview .container .overview-left .price-paid .price .month-word {
+    // }
+    // .overview .container .overview-left ul {
+    // }
+    // .overview .container .overview-left ul li {
+    // }
 }

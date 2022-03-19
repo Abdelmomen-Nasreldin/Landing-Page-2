@@ -1,0 +1,38 @@
+.get-started {
+  background: #fff;
+}
+
+.get-started .container .getStaeted-card h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  /* identical to box height, or 34px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* Dark Gray */
+  color: #181b20;
+}
+
+.get-started .container .getStaeted-card p {
+  max-width: 550px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  margin: 16px auto 30px;
+  /* Dark Gray */
+  color: #181b20;
+}
+
+.get-started .container .getStaeted-card button {
+  width: 100%;
+  max-width: 410px;
+  background: #004CFF;
+  color: #fff;
+  padding: 10px;
+}
+
+@media (max-width: 767.98px) {
+  .get-started {
+    background: #edf0f5;
+  }
+}
+/*# sourceMappingURL=get-started.css.map */

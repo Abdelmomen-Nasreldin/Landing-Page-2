@@ -5,6 +5,19 @@
 }
 
 .companies-name .container p {
-  color: #181B20;
+  color: #181b20;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  max-width: 634px;
+  line-height: 19.5px;
+  opacity: .85;
+}
+
+.companies-name .container ul li {
+  margin: 10px;
+}
+
+.companies-name .container ul li img {
+  max-width: 130px;
 }
 /*# sourceMappingURL=companies-name.css.map */
